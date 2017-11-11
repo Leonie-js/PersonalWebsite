@@ -1,0 +1,800 @@
+@font-face {
+    font-family: Architex;
+    src: url(Architex.ttf);
+}
+@font-face{
+    font-family: Hanken;
+    src: url(hanken.ttf);
+}
+header{
+    background-color: #000000;
+    margin: 1%;
+    border-radius: 40px 100px;
+    flex: 1 1 5%;
+    max-width: 20%;
+    opacity: .9;
+    position: fixed;
+}
+.mugshot img{
+    width: 80%;
+    padding:10%;
+}
+.navigation {
+    padding-bottom: 5%;
+    margin: 0% 10%;
+    display: block;
+}
+.navigation a{
+    color: #ffffea;
+    text-decoration: none;
+}
+#next{
+    color: #ffffea;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #ffffea;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url("background.png");    
+    background-size: 102%;
+    background-attachment: fixed;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parts{
+    width: 79%;
+    margin-left: 22%;
+}
+#leonie2{
+    margin-top: 0;
+}
+
+section{
+    display: inline-block;
+}
+.info{
+    margin: .5% 5%;
+    margin-bottom: 0;
+    width: 20%;
+}
+.sides{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.leonie2 .intro{
+    flex: 1 1 40%;
+    margin: 2%;
+    margin-left: 5%;
+}
+.leonie2 .pic{
+    flex: 1 1 50%;
+    text-align: center;
+}
+.introcontact{
+    display: inline-block;
+    margin: 2%;
+    padding-left: 7%;
+}
+.contact2 .info{
+    width: 70%;
+}
+.contact2 .info h2{
+    padding-left: 8.6%;
+}
+.pic img{
+    width: 80%;
+    border-radius: 10px;
+    display: inline-block;
+}
+.pic2 {
+    text-align: center;
+}
+.pic2 img{
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1%;
+}
+p{
+    font-family: Hanken;
+    color: #ffffea;
+}
+
+.info h2{
+    font-size: 400%;
+    padding-left: 30%;
+    margin-bottom: 0;
+}
+.examples{
+    margin: 0 5%;
+}
+.title{
+    width: 100%;
+}
+.title p{
+    font-size: 150%;
+    display: inline-block;
+}
+
+.picture img{
+    width: 30%;
+    margin: 1%;
+    border-radius: 10px;
+}
+.picture video{
+    width: 30%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+#website2 img{
+    border-radius: 10px;
+    margin: 1%
+}
+
+#ruhr{
+    width: 14.6%; 
+    margin-left: 15%;
+
+}
+#sailfrizz{
+    width: 50%;
+}
+.text p{
+    margin: 1.5%;
+    display: inline-block;
+    text-align: center;
+}
+.website2 .title p{
+    width: 49%;
+    text-align: center;
+}
+.website2 .text p{
+    width: 46%;
+}
+.video2 .title p{
+    width: 32%;
+    text-align: center;
+}
+.video2 .text p{
+    width: 29%;
+    flex: 1 1 50%;
+}
+
+#foto2 .title{
+    margin-left: 2%;
+}
+#foto2 img{
+    margin: 1%;
+    width: 30%;
+    border-radius: 10px;
+}
+.next{
+    width: 100%;
+}
+.next p{
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+.next a:link{ 
+    color: #ffffea; 
+    text-decoration: underline; 
+}
+#design2 .title{
+    margin-left: 2%;
+}
+#design2 img{
+    width: 30%;
+    border-radius: 10px;
+    margin: 1%;
+}
+.contact2 p{
+    font-size: 150%;
+    display: inline-block;
+}
+.contact2 img{
+    width: 15%;
+    display: inline-block;
+    margin: 1%;
+    vertical-align: middle;
+}
+.contact2 a:hover{
+    color: #ffffea;
+    text-decoration: underline;
+}
+.contact2 a{
+    color: #ffffea;
+    text-decoration: none;
+}
+#behance{
+    margin-left: 2%;
+}
+#behanceimg{
+    width: 19%;
+    margin: 2%;
+    margin-left: 3%
+}
+#img1{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img1:hover {opacity: 0.7;}
+
+#img2{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img2:hover {opacity: 0.7;}
+
+#img3{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img3:hover {opacity: 0.7;}
+
+#img4{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img4:hover {opacity: 0.7;}
+
+#img5{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img5:hover {opacity: 0.7;}
+
+#img6{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img6:hover {opacity: 0.7;}
+
+#img7{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img7:hover {opacity: 0.7;}
+
+#img8{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img8:hover {opacity: 0.7;}
+
+#img9{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img9:hover {opacity: 0.7;}
+
+#img10{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img10:hover {opacity: 0.7;}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 64%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close5 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close6 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close6:hover,
+.close6:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close7 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close7:hover,
+.close7:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close8 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close8:hover,
+.close8:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close9 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close9:hover,
+.close9:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close10 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close10:hover,
+.close10:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1315px){
+.mobile{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+
+h1{
+    color: #ffffea;
+    text-align: center;
+    font-size: 300%;
+    font-family: Architex;
+}
+
+
+.parts div{
+    background-color: rgba(0,0,0,.7);
+    min-height: 20%;
+    margin: 3%;
+    margin-bottom: 5%;
+    border-radius: 40px 100px;
+    flex: 1 1 95%;
+    margin-top: 1.5%;
+}
+
+h2{ 
+    color: #ffffea;
+    padding-left: 22%;
+    font-size: 200%;
+    font-family: Architex;
+
+}
+
+}
+
+
+
+
+@media screen and (max-width: 1314px){
+.mobile{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+
+h1{
+    color: #ffffea;
+    text-align: center;
+    font-size: 250%;
+    font-family: Architex;
+}
+
+.parts div{
+    background-color: rgba(0,0,0,.7);
+    min-height: 20%;
+    margin: 3%;
+    margin-bottom: 5%;
+    border-radius: 40px 100px;
+    flex: 1 1 95%;
+}
+
+h2{ 
+    color: #ffffea;
+    padding-left: 22%;
+    font-size: 200%;
+    font-family: Architex;
+
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1366px ){
+
+.mobile{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+
+h1{
+    color: #ffffea;
+    text-align: center;
+    font-size: 200%;
+    font-family: Architex;
+}
+h2{ 
+    color: #ffffea;
+    padding-left: 22%;
+    font-size: 150%;
+    font-family: Architex;
+
+}
+
+.parts div{
+    background-color: rgba(0,0,0,.7);
+    min-height: 17%;
+    margin: 3%;
+    margin-bottom: 5%;
+    border-radius: 40px 100px;
+    flex: 1 1 95%;
+}
+
+}
+
+
+
+
+
+
+@media screen and (width: 1600px ){
+
+
+.mobile{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+h1{
+    color: #ffffea;
+    text-align: center;
+    font-size: 220%;
+    font-family: Architex;
+}
+h2{ 
+    color: #ffffea;
+    padding-left: 22%;
+    font-size: 170%;
+    font-family: Architex;
+
+}
+
+.parts div{
+    background-color: rgba(0,0,0,.7);
+    min-height: 18%;
+    margin: 3%;
+    margin-bottom: 5%;
+    border-radius: 40px 100px;
+    flex: 1 1 95%;
+}
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    p{
+        font-size: 150%;
+    }
+
+    body{
+        background-image: url("background.png");
+        background-size: 350%;
+        margin: 0;
+    }
+
+    header{
+        display: none;
+    }
+    
+    .mobilenav{
+        display: block;
+        position: relative;
+    }
+    #escape{
+        position: absolute;
+        margin: 6%;
+        margin-left: 80%;
+        display: none;
+    }
+    .parts{
+        margin-left: 0;
+        width: 100%;
+        position: relative;
+    }
+    .leonie2{
+        margin-top: 27% !important;
+    }
+    p{
+    color: #ffffff;
+    text-decoration:none;
+    }
+    .parts div{
+        border-radius: 40px;
+        min-height: 0;
+    }
+    .leonie2 .sides{
+        display: inline-block;
+    }
+    .website2 p{
+        width: 100% !important;
+        text-align: center;
+        font-size: 150%;
+    }
+    .website2 section p:first-child{
+        font-size: 200%;
+    }
+    #ruhr{
+        margin-left: 7% !important;
+    }
+    .website2 img{
+        width: 85% !important;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .foto2 .picture img{
+        display: block;
+        width: 93%;
+        text-align: center;
+    }
+    .design2 .picture img{
+        display: block;
+        width: 93%;
+        text-align: center;
+    }
+
+    .video2 p{
+        font-size: 150%;
+        width: 100% !important; 
+        text-align: center;
+    }
+
+    .video2 section p:first-child{
+        font-size: 200%;
+    }
+    .video2 video{
+        width: 100% !important;
+        margin: 1%;
+        border-radius: 10px;
+    } 
+.dropbtn {
+    background-color: rgba(0,0,1,1);
+    color: white;
+    font-size: 250%;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+.mobilenav {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    z-index: 1;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #ffffff;
+    padding: 1%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: rgba(0,0,0,.6);}
+
+
+#escape:hover{
+    text-decoration: underline;
+}
+.mobilenav:hover .dropbtn {
+    background-color: rgba(0,0,2,1);;
+}
+#mobiletext {
+    margin: 6%;
+    text-align: center;
+    color:#ffffff;
+}
+#mobiletext:hover{
+    text-decoration: underline;
+}
+.dropdown-content #mobiletext{
+    color:#000000;
+}
+}

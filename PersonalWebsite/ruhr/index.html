@@ -1,0 +1,331 @@
+ 	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruhr</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style/style.css" />
+		<meta name="viewport" content="width=device-width,user-scalable= no" />
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUcNPirbfPeeRYWWN_9sXoDyVpWaMpP0"></script>
+		<script src="js/page-control.js"></script>
+		<script src="js/functions.js"></script>
+		<script>
+			var pageArray = [
+				'pageButton',
+				'pageImageSelector',
+				'pageNerdEX',
+				'pageNerd1',
+				'pageNerd2',
+				'pageNerd3',
+				'pageNerd4',
+				'pageNerd5',
+				'pageFinder',
+				'pageOleate',
+				'pageFinal',
+				'pagePopup',
+				'pageHelp'
+			];
+		</script>
+	</head>
+	<body>
+		<div id="pageButton">
+			<div class="header">
+				<button id="help">Help</button>
+				<img src='images/logotranspn.png' alt="logo"/>	
+			</div>
+			<div class="explanation">
+				<p>Welkom in Essen, <br>
+					Bekijk deze video om de instructies van het spel te ontvangen. Nadat je de instructies weet kun je op start klikken om door te gaan.<br>
+					Veel succes!</p>
+			</div>
+			<div id="introFilm">
+				<video controls>
+					<source src="ruhr.mp4" type="video/mp4">
+					<source src="ruhr.ogg" type="video/ogg">
+				</video>
+			</div>
+			<div id="startButton">
+				<button id="submit">Start</button>
+			</div>
+		</div>
+
+		<div id="pageImageSelector">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+
+			</div>
+			<div class="explanation">
+				<p>Elke teamlid kan hier zijn eigen karakter kiezen door te klikken op de plaatjes. Maar bedenk dat hierna je dit niet meer kan veranderen. <br>
+				Dus kies verstandig!</p>
+			</div>
+			<div id="characterMulti">
+				<div id="character1">
+					<div class="characterImg">
+						<img src="images/11.png" alt="Bertha">
+					</div>
+					<div class="characterExplanation">
+						<h1>De Nerd</h1>
+						<p>Kwaliteiten: Slim, Snelle Denker, Wijs.</p>
+					</div>
+				</div>
+				<div id="character2">
+					<div class="characterImg">
+						<img src="images/22.png" alt="Eugene">
+					</div>
+					<div class="characterExplanation">
+						<h1>De Renner</h1>
+						<p>Kwaliteiten: Snel, Vindt snel routes, Weet de korste weg.</p>
+					</div>
+				</div>
+				<div id="character3">
+					<div class="characterImg">
+						<img src="images/33.png" alt="Marvin">
+					</div>
+					<div class="characterExplanation">
+						<h1>De Vinder</h1>
+						<p>Kwaliteiten: Vindt snel dingen, Heeft een goed oog, Kan goede foto's maken.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="pageNerdEX">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Slim zijn is fijn.</h1>
+			</div>
+			<div class="explanation">
+				<p>In de komende pagina's worden er vragen gesteld. Probeer die correct en zo snel mogelijk te beantwoorden.<br>
+				Schrijf de letter op van de goede antwoorden, zodat je ze later nog kan herinneren.</p>
+			</div>
+			<div id="buttonNE">
+				<button id="submit">Volgende</button>
+			</div>
+		</div>
+
+
+		<div id="pageNerd1">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Het Begin.</h1>
+			</div>
+			<div class="explanation">
+				<p>Wanneer is het eerste kool gevormd?</p>
+			</div>
+			<div class="question">
+				<input class="q" type="radio" name="letter" value="a">230 - 290 miljoen jaar geleden.<br>
+				<input class="q" type="radio" name="letter" value="b">290 - 360 miljoen jaar geleden.<br>
+				<input class="q" type="radio" name="letter" value="c">230 - 290 miljoen jaar geleden.<br>
+				<input class="q" type="radio" name="letter" value="d">290 - 360 miljoen jaar geleden.<br>
+				<div class="buttonN">
+				<button id="submit">Check!</button>
+			</div>
+			</div>
+		</div>
+
+		<div id="pageNerd2">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Meer en meer.</h1>
+			</div>
+			<div class="explanation">
+				<p>Hoeveel ton kool werdt er gemijnd per dag toen de fabriek nog open was?</p>
+			</div>
+			<div class="question">
+				<input type="radio" name="letter" value="a">10 duizend.<br>
+				<input type="radio" name="letter" value="b">5 duizend.<br>
+				<input type="radio" name="letter" value="c">12 duizend.<br>
+				<input type="radio" name="letter" value="d">7 duizend.<br>
+				<div class="buttonN">
+				<button id="submit">Check!</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="pageNerd3">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Werk = Geld = Leven</h1>
+			</div>
+			<div class="explanation">
+				<p>Hoeveel mensen werkten er in de fabriek?</p>
+			</div>
+			<div class="question">
+				<input type="radio" name="letter" value="a">2.500 medewerkers.<br>
+				<input type="radio" name="letter" value="b">1.000 medewerkers.<br>
+				<input type="radio" name="letter" value="c">3.000 medewerkers.<br>
+				<input type="radio" name="letter" value="d">2.700 medewerkers.<br>
+				<div class="buttonN">
+				<button id="submit">Check!</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="pageNerd4">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Laten we iets anders gaan doen.</h1>
+			</div>
+			<div class="explanation">
+				<p>Wanneer stopte de fabriek met produceren?</p>
+			</div>
+			<div class="question">
+				<input type="radio" name="letter" value="a">1997<br>
+				<input type="radio" name="letter" value="b">1986<br>
+				<input type="radio" name="letter" value="c">2001<br>
+				<input type="radio" name="letter" value="d">1993<br>
+				<div class="buttonN">
+				<button id="submit">Check!</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="pageNerd5">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>HHeb een beetje plezier!</h1>
+			</div>
+			<div class="explanation">
+				<p>Wat doen de meeste mensen in de winter op het terrrein van Zeche Zollverein?</p>
+			</div>
+			<div class="question">
+				<input type="radio" name="letter" value="a">Bock worst eten.<br>
+				<input type="radio" name="letter" value="b">Sneeuwmannen maken.<br>
+				<input type="radio" name="letter" value="c">Schaatsen.<br>
+				<input type="radio" name="letter" value="d">Warme chocolademelk drinken.<br>
+				<div class="buttonN">
+				<button id="submit">Check!</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="pageFinder">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Kijk en zie.</h1>
+			</div>
+			<div class="explanation">
+				<p>Je staat nu in de ingang van Zeche Zollverein.<br> 
+				In dit gebied kun je delen van een papier vinden waar instructies op staan van het spelen van een instrument. Als je alle delen hebt gevonden kun je er een foto van maken die je beneden deze pagina kunt uploaden.<br>
+				Neem de delen mee naar de volgende opdracht.<br>
+				Om verder te gaan in het spel moet je op knop drukken die onder de geuploade foto komt.
+				</p>
+			</div>
+			<div class="upload">
+			<input type="file" id="submit" accept="image/*">
+		</div>
+		</div>
+
+		<div id="pageOleate">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Ren.</h1>
+			</div>
+			<div class="explanation">
+				<p>Je kan onder deze text een map zien, daarop staat een rode lijn. Om te weten waar je naartoe moet gaan moet je de lijn op de goede manier op de map leggen. Als je daarna de lijn volgt kun je iet vinden.
+				Kijk wat het is en schrijf het op in het textveld hieronder.<br>
+				Neem het object mee naar de volgende opdracht.
+				</p>
+			</div>
+			<figure>
+				<img id="map" src="images/mapEssen.png" alt="map of essen">
+				<img id="oleate" src="images/oleate.png" alt="oleate of map">
+			</figure>
+			<div class="answer">
+				<input type="text" id="fieldToCheck" />
+				<button id="submit">Ga!</button>
+			</div>
+		</div>
+
+		<div id="pageFinal">
+			<div class="header">
+				<button id="help">Help</button>
+				<a href="index.html">
+					<img src='images/logotranspn.png' alt="logo"/>
+				</a>
+				
+			</div>
+			<div class="title">
+				<h1>Je hebt het gehaald!</h1>
+			</div>
+			<div class="explanation">
+				<p>Je hebt nu je eigen opdracht voltooid. Ga naar de marker op de map, hier zul je je andere teamleden vinden.<br>
+				In de laatste opdracht moeten jullie samen een liedje maken dat jullie met de informatie met jullie individuele opdrachten hebben gevonden. <br>
+				Het team met de mooiste uitvoering wint. <br>
+				Je kunt hieronder het bestand uploaden.</p>
+			</div>
+			<div id="mapCanvasOne">
+
+			</div>
+			<div class="upload">
+			<input type="file" id="submit" accept="image/*">
+		</div>
+		</div>
+
+		<div id="pagePopup">
+			<div class="explanationPopup">
+				<p>Dit antwoord is verkeerd, probeer het nog eens!</p>
+			</div>
+		</div>
+
+		<div id="pageHelp">
+			<div class="explanationPopup">
+				<p>Nood nummers:<br>
+				</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

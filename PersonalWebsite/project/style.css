@@ -1,0 +1,66 @@
+#discover {
+  margin-left: 46%;
+  bottom: 2%;
+  display: inline-block;
+  position: absolute;
+  font-size: 300%;
+}
+#discover:hover{
+	cursor: pointer;
+}
+#discover p {
+  color: #3333cc;
+}
+.options {
+	margin-left: 3%;
+}
+.options div{
+	display: inline-block;
+	width: 28%;
+	margin: 2%;
+	background-color: #3333cc;
+	margin-bottom: 0;
+	text-align: center;
+}
+.options p {
+	color: #ffffff;
+	font-size: 200%;
+}
+.stagger{
+	border-radius: 10px;
+}
+.extraoptions{
+	margin-left:2.8%;
+	height: 0;
+}
+.extraoptions p {
+	color: #ffffff;
+	font-size: 200%;
+}
+.sail, .boat, .lines{
+	display: inline-block;
+	opacity: 0;
+}
+.sail div, .boat div, .lines div{
+	display: block;
+	width: 27%;
+	margin: 2%;
+	margin-top: 0;
+	background-color: #3333cc;
+	margin-bottom: 0;
+	text-align: center;
+	position: absolute;
+	border-radius: 10px;
+	border: solid 1px;
+	border-color: #ffffff;
+}
+.boat {
+	margin-left: 31.7%;
+}
+.lines{
+	margin-left: 32.2%;
+}
+#foresail, #centreboard, #jibsheet{
+	margin-top: 6.1%;
+	z-index: 1;
+}

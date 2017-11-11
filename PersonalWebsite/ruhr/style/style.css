@@ -1,0 +1,476 @@
+@media screen and (max-width: 560px) {
+*{
+	margin: 0;
+}
+
+.header p{
+ 	float: right;
+ 	color: #DF195C;
+ 	font-size: 120%;
+}
+
+#help{
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #DF195C; 
+	float: right;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+body{
+	overflow: scroll;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("background3.JPG");
+	background-size: 250%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+		color: #DF195C;
+}
+
+.header {
+	border: 1px solid black;
+	margin: 4%;
+}
+
+.header img{
+	max-width: 100%;
+}
+
+body > div{
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.8s;
+	left: 100%;
+}
+
+body > div.active{
+	left: 0;
+	transition: all 0.8s;
+}
+
+.explanation {
+	width: 84%;
+	margin: auto 8%;
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #FFFFFF;
+}
+
+.explanationPopup {
+	width: 84%;
+	margin: 20% 8%;
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #FFFFFF;
+}
+
+#introFilm {
+	margin: 4%;
+}
+
+video{
+	width: 100%;
+}
+
+#startButton{
+	width: 59px;
+	margin: 0 4% 0 auto;
+}
+
+#characterMulti{
+	margin: 4% auto;
+}
+
+#character1{
+	position: absolute;
+	margin: 0 4% 0 4%;
+}
+
+#character2{
+	position: absolute;
+	margin: 35% 4% 0 4%;
+}
+
+#character3{
+	position: absolute;
+	margin: 75% 4% 0 4%;
+}
+
+.characterImg {
+	display: block;
+	max-width: 50%;
+}
+ 
+.characterImg > img{
+	width: 20%;
+	position: absolute;
+	display: block;
+	margin: 4%;
+}
+
+.characterExplanation {
+	display: inline-block;
+	border: 1px solid black;
+	float: right;
+	margin: 0 4% 0 28%;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+}
+
+.title {
+	width: 84%;
+	margin: auto 8%;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.question{
+	width: 70%;
+	margin: 2% 15%;
+	font-size: 120%;
+	color: #FFFFFF;
+
+}
+
+#buttonNE{
+	width: 59px;
+	margin: 4% 4% 4% auto;
+}
+
+.buttonN{
+	margin: 0;
+}
+
+#submit {
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #DF195C; 
+
+}
+
+.upload {
+	margin: 0 4%;
+}
+#pageFinder #submit {
+	margin: 4%;
+}
+
+figure{
+	position: relative;
+	max-width: 92%;
+	margin: 4% 4%;
+	padding: 0;
+}
+
+figure #map{
+	width: 100%;
+	margin: 0;
+}
+
+
+
+#oleate{
+	position: absolute;
+	width: 60%;
+	left: 0;
+	top: 0;
+}
+
+input{
+	border: 1px solid black;
+}
+
+.q{
+	font-size: 120%;
+	color: #FFFFFF;
+}
+
+#mapCanvasOne {
+	height: 300px;
+	max-width: 100%;
+	margin: 4%;
+}
+
+.answer {
+	margin: 4% 4%;
+}
+
+/* basic styles for pop up */
+.popup{
+	overflow: visible;
+	display: block;
+	background-color: #000000;
+	color: #FFFFFF;
+	left: 0;
+}
+#closePopup{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 561px) {
+
+*{
+	margin: 0;
+}
+
+body  {
+	max-width: 560px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header p{
+ 	float: right;
+ 	color: #DF195C;
+ 	font-size: 120%;
+}
+
+#help{
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #DF195C; 
+	float: right;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+body{
+	overflow: scroll;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("background3.JPG");
+	background-size: 250%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+		color: #DF195C;
+}
+
+.header {
+	border: 1px solid black;
+	margin: 4%;
+}
+
+.header img{
+	max-width: 100%;
+}
+
+body > div{
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.8s;
+	left: 100%;
+}
+
+body > div.active{
+	left: 0;
+	transition: all 0.8s;
+}
+
+.explanation {
+	width: 84%;
+	margin: auto 8%;
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #FFFFFF;
+}
+
+.explanationPopup {
+	width: 84%;
+	margin: 20% 8%;
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #FFFFFF;
+}
+
+#introFilm {
+	margin: 4%;
+}
+
+video{
+	width: 100%;
+}
+
+#startButton{
+	width: 59px;
+	margin: 0 4% 0 auto;
+}
+
+#characterMulti{
+	margin: 4% auto;
+}
+
+#character1{
+	position: absolute;
+	margin: 0 4% 0 4%;
+}
+
+#character2{
+	position: absolute;
+	margin: 35% 4% 0 4%;
+}
+
+#character3{
+	position: absolute;
+	margin: 75% 4% 0 4%;
+}
+
+.characterImg {
+	display: block;
+	max-width: 50%;
+}
+ 
+.characterImg > img{
+	width: 20%;
+	position: absolute;
+	display: block;
+	margin: 4%;
+}
+
+.characterExplanation {
+	display: inline-block;
+	border: 1px solid black;
+	float: right;
+	margin: 0 4% 0 28%;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+}
+
+.title {
+	width: 84%;
+	margin: auto 8%;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.question{
+	width: 70%;
+	margin: 2% 15%;
+	font-size: 120%;
+	color: #FFFFFF;
+
+}
+
+#buttonNE{
+	width: 59px;
+	margin: 4% 4% 4% auto;
+}
+
+.buttonN{
+	margin: 0;
+}
+
+#submit {
+	border: 3px solid #000000;
+	text-align: center;
+	font-size: 120%;
+	background-color: rgba(26,23,16,.7);
+	color: #DF195C; 
+
+}
+
+.upload {
+	margin: 0 4%;
+}
+#pageFinder #submit {
+	margin: 4%;
+}
+
+figure{
+	position: relative;
+	max-width: 92%;
+	margin: 4% 4%;
+	padding: 0;
+}
+
+figure #map{
+	width: 100%;
+	margin: 0;
+}
+
+
+
+#oleate{
+	position: absolute;
+	width: 35%;
+	left: 0;
+	top: 0;
+}
+
+input{
+	border: 1px solid black;
+}
+
+.q{
+	font-size: 120%;
+	color: #FFFFFF;
+}
+
+#mapCanvasOne {
+	height: 300px;
+	max-width: 100%;
+	margin: 4%;
+}
+
+.answer {
+	margin: 4% 4%;
+}
+
+/* basic styles for pop up */
+.popup{
+	overflow: visible;
+	display: block;
+	background-color: #000000;
+	color: #FFFFFF;
+	left: 0;
+}
+#closePopup{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+}
